@@ -52,6 +52,12 @@ export default [
     component: './TableList',
   },
   {
+    name: 'list.Basic-list',
+    icon: 'table',
+    path: '/basic-list',
+    component: './BasicList',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
